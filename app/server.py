@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1Fd4F76sMC-s9UgWgCEHWvDZ3GNLo6KDz?alt=media&key=AIzaSyBGqmvA3kBuAgBrDkVaDhaz1uW-bRlkUPU'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1ROOw6ItKOHOsBYWIDZpqNnYnwDgUycy2?alt=media&key=AIzaSyBGqmvA3kBuAgBrDkVaDhaz1uW-bRlkUPU'
 export_file_name = 'export.pkl'
 
 classes = ['eczema','psoriasis']
