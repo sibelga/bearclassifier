@@ -10,9 +10,9 @@ from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1TYrIifpIC4LSpZtOayzIHHAY4pFuZRcJ?alt=media&key=AIzaSyBGqmvA3kBuAgBrDkVaDhaz1uW-bRlkUPU'
-export_file_name = 'exporteczema.pkl'
+export_file_name = 'expor.pkl'
 
-classes = ['eczema','psoriasis']
+classes = ['malignant','begnin']
 path = Path(__file__).parent
 
 app = Starlette()
